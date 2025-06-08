@@ -1,0 +1,23 @@
+{
+  "name": "@applauncher/api-client",
+  "version": "1.0.0",
+  "description": "API client for I Ching divination application",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "dependencies": {
+    "@applauncher/shared-types": "workspace:*",
+    "@applauncher/shared-utils": "workspace:*",
+    "axios": "^0.27.2"
+  },
+  "peerDependencies": {
+    "@applauncher/shared-types": "workspace:*",
+    "@applauncher/shared-utils": "^2.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  }
+}

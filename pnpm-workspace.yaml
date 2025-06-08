@@ -1,0 +1,6 @@
+packages:
+  - apps/iching_v1/frontend/web
+  - apps/iching_v1/frontend/mobile
+  - packages/js/*
+ignoredBuiltDependencies:
+  - unrs-resolver

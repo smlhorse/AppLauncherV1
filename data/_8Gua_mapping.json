@@ -1,0 +1,10 @@
+{
+    "1": {"name": "乾", "binary": "111", "nature": "天", "element": "金"},
+    "2": {"name": "兌", "binary": "110", "nature": "澤", "element": "金"},
+    "3": {"name": "離", "binary": "101", "nature": "火", "element": "火"},
+    "4": {"name": "震", "binary": "100", "nature": "雷", "element": "木"},
+    "5": {"name": "巽", "binary": "011", "nature": "風", "element": "木"},
+    "6": {"name": "坎", "binary": "010", "nature": "水", "element": "水"},
+    "7": {"name": "艮", "binary": "001", "nature": "山", "element": "土"},
+    "8": {"name": "坤", "binary": "000", "nature": "地", "element": "土"}
+}

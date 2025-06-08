@@ -1,0 +1,29 @@
+{
+    "name": "AppLauncher",
+    "version": "1.0.0",
+    "description": "易經算命應用程式",
+    "main": "index.js",    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "pnpm -r build",
+        "dev:web": "pnpm --filter web dev",
+        "build:web": "pnpm --filter web build",
+        "start:web": "pnpm --filter web start",
+        "start:backend": "cd apps/iching_v1/backend && python app.py",
+        "dev:mobile": "pnpm --filter mobile start",
+        "android": "pnpm --filter mobile android",
+        "ios": "pnpm --filter mobile ios"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "private": true,
+    "packageManager": "pnpm@latest",
+    "workspaces": [
+        "apps/iching_v1/frontend/*",
+        "packages/js/*"
+    ],
+    "devDependencies": {
+        "@tsconfig/node18": "^18.2.4",
+        "typescript": "^5.8.3"
+    }
+}
