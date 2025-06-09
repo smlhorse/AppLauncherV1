@@ -1,0 +1,9 @@
+Remove unused and duplicate files generated during development. These files are not imported or referenced anywhere in the backend codebase and are safe to delete:
+- gua_calculator_new.py
+- gua_data_reader.py.fixed
+- gua_data_reader.py.new
+- iching_service.py.new
+- logger.py.new
+- value_converter_new.py
+
+This cleanup is based on codebase scan and import analysis. If you need to restore any file, you can recover it from version control history.

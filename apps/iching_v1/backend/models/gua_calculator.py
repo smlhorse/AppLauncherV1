@@ -31,12 +31,11 @@ class GuaCalculator:
         Returns:
             tuple: (上卦數, 下卦數)
         """
-        # 計算餘數，若為0則取8
         heaven_num = heaven_value % 8 or 8
         earth_num = earth_value % 8 or 8
         
         return heaven_num, earth_num
-    
+
     @staticmethod
     @lru_cache(maxsize=128)
     def calculate_change_position(total_value):
@@ -49,7 +48,6 @@ class GuaCalculator:
         Returns:
             int: 變爻位置 (1-6)
         """
-        # 計算餘數，若為0則取6
         return total_value % 6 or 6
     
     @lru_cache(maxsize=64)

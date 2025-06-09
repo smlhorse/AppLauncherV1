@@ -1,0 +1,25 @@
+# dependencies
+node_modules/
+
+# temp & log 
+temp/
+logs/
+
+# Python cache and virtual env
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+.venv/
+
+# VSCode settings
+.vscode/
+
+# System files
+*.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
